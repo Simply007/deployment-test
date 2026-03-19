@@ -5,7 +5,7 @@ on:
     branches: [dev]
   schedule:
     # Run daily at 9 AM UTC to check for differences
-    - cron: "0 9 * * *"
+    # - cron: "0 9 * * *"
   workflow_dispatch: # Allow manual trigger
 
 permissions:
